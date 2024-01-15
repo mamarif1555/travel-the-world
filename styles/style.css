@@ -42,7 +42,10 @@ header{
 .nav-third{
     color: #131318;
 }
-.nav-forth{
+.nav-forth {
+    color: #FF5400;
+}
+.nav-fifth{
     color: #FF5400;
 }
 .nav-container{
@@ -66,6 +69,7 @@ header{
 
 /* navebar section style end now */
 .header-title{
+    display: flex;
     width: 1170px;
     height: 500px;
     background-image:url('../images/Group\ 13\ \(1\)\ \(1\).png') ;
@@ -80,4 +84,61 @@ header{
     height: 500px;
     border-radius: 16px;
      background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+.img-title-first{
+    align-items: end;   
+}
+.img-title-second{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800; 
+    margin-top:100px;
+    margin-bottom: 0px;    
+}
+.img-title-third{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 20px 220px; 
+   
+}
+.container{
+    
+    
+}
+.box{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+    gap: 24px;
+}
+.box-first,
+.box-second,
+.box-third{
+    width: 174px;
+    height: 52px;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    gap: 24px;
+
+}
+.box-forth{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: 0;
+    gap: 24px;
+
 }
