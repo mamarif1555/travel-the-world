@@ -1,0 +1,83 @@
+
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@400;700;900&family=Mulish:wght@300;400;600;700;800&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+}
+  
+body{
+    width: 1440px;
+    height: 6940px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navebar section style starts now */
+header{
+    background: #FFF;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.nav-title-first{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto;
+}
+.nav-title{
+     display: flex;
+     align-items: center;
+}
+.nav-first{
+      max-width: 48px;
+      max-height: 56.008px;
+}
+.nav-second{
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+.nav-third{
+    color: #131318;
+}
+.nav-forth{
+    color: #FF5400;
+}
+.nav-container{
+      display: flex;
+      align-items: center;
+    
+}
+.nav-container >ul {
+      display: flex;
+}
+.nav-container li{
+      list-style: none;
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-left: 44px;
+}
+.nav-container li a{
+      text-decoration: none;
+      color:#424247;
+}
+
+/* navebar section style end now */
+.header-title{
+    width: 1170px;
+    height: 500px;
+    background-image:url('../images/Group\ 13\ \(1\)\ \(1\).png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    margin-top: 0px;
+
+}
+.img-title{
+    text-align: center;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
