@@ -148,7 +148,6 @@ background: rgba(255, 255, 255, 0.30);
     margin: 100px auto;
     display: flex;
     margin-left: 130px;
-    border: 2px solid tomato;
     /*justify-content: space-between;*/
 }
 .popular-title{
@@ -194,8 +193,113 @@ line-height: 26px;
     margin-left: 110px;
 border-radius: 16px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-
 }
 
-
 /* popular section style end now */
+/* Destination section style end now */
+
+.destination{
+    margin: 50px 130px;
+    
+}
+.destination-first{
+    text-align: center;
+    
+}
+.destination-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    margin: 24px 350px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;   
+}
+.men-first,
+.men-second,
+.men-third,
+.men-forth,
+.men-fift,
+.men-six,
+.men-seven,
+.men-eight{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 20px;  
+}
+.men-first{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background-image:url('../images/Rectangle\ 5.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+.men-second{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+   background-image:url('../images/Rectangle\ 8.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;   
+}
+.men-third{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    background-image:url('../images/Rectangle\ 6.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+.men-forth{
+    width: 474px;
+height: 286px;
+    border-radius: 16px;
+    background-image:url('../images/Rectangle\ 7.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+.men-fift{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background-image:url('../images/Rectangle\ 9.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+.men-six{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background-image:url('../images/Rectangle\ 9.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+.men-seven{
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    background-image:url('../images/Rectangle\ 11.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+.men-eight{
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    background-image:url('../images/Rectangle\ 10.png') ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+/* Destination section style end now */
