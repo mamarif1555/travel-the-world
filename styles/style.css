@@ -303,3 +303,39 @@ height: 286px;
     background-position:center ;
 }
 /* Destination section style end now */
+/* Choose section style starte now */
+.choose{
+    margin: 120px 135px;
+}
+.choose-title{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 24px;
+}
+.choose-first,
+.choose-second{
+    padding: 30px 30px;
+}
+.choose-third{
+    margin: 0px auto;
+    padding: 30px 30px;
+}
+.choose-img{
+    width: 64px;
+    height: 64px;
+}
+.choose-img-title{
+    color: #131318;
+   font-size: 24px;
+   font-weight: 800;
+}
+
+.choose-img-description{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* Choose section style end now */
