@@ -140,12 +140,12 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     gap: 100px;
     max-width:1170px ;
    margin: 20px auto;
-    border:2px solid red;
+    
 }
 .popular-title{
     align-items: start;
     width: 525px;
-    border:2px solid red;
+    
 }
 .popular-title-first,
 .place-title-first{
@@ -176,7 +176,7 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     width: 540px;
     height: 550px;
 border-radius: 16px;
-border:2px solid red;
+
 
 }
 /* popular section style end now */
@@ -191,7 +191,7 @@ border:2px solid red;
     max-width:1250px ;
     margin: 0 auto;
     text-align: center;
-    border: 25px solid 
+    
     
 }
 .destination-title{
@@ -226,7 +226,7 @@ border:2px solid red;
 .container{
     max-width:1170px ;
     margin: 0 auto;
-    border: 2px solid blue;
+   
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -303,7 +303,6 @@ border:2px solid red;
 .service{
     margin:10px auto;
     max-width:1170px ;
-   border: 20px solid red;
 }
 .service-first{
     max-width:1250px ;
@@ -332,7 +331,7 @@ border:2px solid red;
     width: 1170px;
     margin: 0 auto;
     
-    border: 20px solid rgb(0, 255, 42);
+   
 }
 
 .choose-first{
@@ -341,12 +340,12 @@ border:2px solid red;
 }
 .choose-second{
     padding: 30px 30px;
-    border: 2px solid red;
+    
 }
 .choose-third{
     margin: 0px auto;
     padding: 30px 30px;
-    border: 2px solid red;
+   
 }
 .choose-img{
     width: 64px;
@@ -508,12 +507,12 @@ border:2px solid red;
    width: 1170px;
    margin: 0 auto;
    display: flex;
-    border: 5px solid red;
+   
     
 }
 .place-title{
     width: 530px;
-    border: 5px solid rgb(25, 0, 255);
+   
    
 }
 .place-title-third{
@@ -522,7 +521,7 @@ border:2px solid red;
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
-    border: 5px solid rgb(12, 12, 12);
+    
     
 }
 .place-but-primary{
@@ -537,11 +536,13 @@ border:2px solid red;
     border: 0;
 }
 .place-img{
-    width:610px;
-    height: 424px;
-    border-radius: 16px;
-    margin-left: 30px;
-    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    width: 672px;
+    height: 422px;
+    background-image: url('../images/Group\ 40089.png');
+    border-radius: 16px; 
+    
+    margin-top: 20px;
+    margin-left: 20px;
    
   
 }
@@ -551,14 +552,14 @@ border:2px solid red;
     display: flex;
     width: 1170px;
     margin: 0 auto;
-    border: 2px solid red;
+   
 }
 .news-title{
     width: 474px;
     height: 422px;
     padding: 40px 40px;
     margin-top: 20px;
-    border: 2px solid red; 
+   
 }
 .news-title-first{
     color: #131318;
@@ -612,7 +613,7 @@ border:2px solid red;
     height: 422px;
     background-image: url('../images/Rectangle\ 8\ \(1\).png');
     border-radius: 16px; 
-    border: 2px solid red; 
+    
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -648,30 +649,47 @@ border:2px solid red;
 /* Newsletter  section style end now */
 /* footer  section style starte now */
 .footer-container{
-    margin:100px 300px;
+   width: 1170px;
+   margin: 0 auto;
     background: rgba(19, 19, 24, 0.05);
+    
+}
+.footer-footer{
+    justify-content: center;
+    width: 770px;
 }
 .footer-title{
     margin-top:50px ;
     margin-left: 230px;
     margin-bottom: 0;
+   
 }
+.footer-nave-icon{
+    width: 40px;
+   height: 46.673px;
+
+}
+.footer-nave-title{
+    color:  #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
 .footer-title-first{
     width: 769px;
     color: #5A5A5D;
-    text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px; 
-    margin-top: 0px;
-    margin-left: 30px;
+    line-height: 26px;
+    margin-left: 150px;
+    
 }
 .box-fond{
     display: flex;
     width: 174.322px;
     height: 24px;
     margin: 50px auto;
-    gap: 20px;
+    gap: 30px;
 }
 hr{
     width: 872;

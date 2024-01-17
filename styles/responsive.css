@@ -198,11 +198,30 @@
     width: 100%;
     margin-left: 0px;
    }
+   .box-fond{
+    
+   }
+   .footer-title-first{
+    width: 287px;
+   }
+   .footer-container{
+    width: 100%;
+   }
+   .footer-title{
+    margin: 10px auto;
+   }
+   .footer-nave-icon{
+    width: 28.724px;
+height: 33.516px;
 
-
-
-
-
+   }
+   .footer-footer{
+    text-align: center;
+   }
+   hr{
+    width: 335px;
+    height: 1px;
+   }
 
 }
 
