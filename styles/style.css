@@ -505,15 +505,16 @@ border:2px solid red;
 /* Choose section style end now */
 /* Place  section style starte now */
 .place{
-    margin: 100px auto;
-    display: flex;
-    margin-left: 130px;
+   width: 1170px;
+   margin: 0 auto;
+   display: flex;
+    border: 5px solid red;
     
 }
 .place-title{
-    width: 532px;
-    align-items: start;
-    border: 2px solid red;
+    width: 530px;
+    border: 5px solid rgb(25, 0, 255);
+   
 }
 .place-title-third{
     width: 532px;
@@ -521,6 +522,7 @@ border:2px solid red;
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
+    border: 5px solid rgb(12, 12, 12);
     
 }
 .place-but-primary{
@@ -535,11 +537,13 @@ border:2px solid red;
     border: 0;
 }
 .place-img{
-    width: 610px;
+    width:610px;
     height: 424px;
     border-radius: 16px;
-    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
     margin-left: 30px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+   
+  
 }
 /* Place  section style end now */
 /* Newsletter  section staret now */

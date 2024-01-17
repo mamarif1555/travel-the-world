@@ -146,11 +146,7 @@
         height: 297px;
         margin-top: 150px;
         margin-left: 120px;
-        position: absolute;
     }
-
-
-
    .discounts,
    .discounts-second,
    .discounts-first{
@@ -178,9 +174,23 @@
    .container-arif{
     margin-top: 500px;
    }
+   .place{
+    flex-direction: column;
+   }
+   .place-img{
+    width: 305px;
+    height: 200px;
+   margin-left: 0;
+   margin-top: 10px;
 
-
-
+   }
+   .place-title{
+    width: 335px;
+    
+   }
+   .place-title-third{
+    width: 335px;
+   }
 
 
 
