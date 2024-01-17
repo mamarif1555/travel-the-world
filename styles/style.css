@@ -71,10 +71,8 @@ body{
 .banner-section-title{ 
     display: flex;
     justify-content: center;
-    max-width:1250px ;
-    margin: 50px auto;
-    
-    
+    max-width:1170px ;
+    margin: 20px auto;   
 }
 .header-title {
     position: relative;
@@ -141,7 +139,7 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     display: flex;
     gap: 100px;
     max-width:1170px ;
-   margin: 100px auto;
+   margin: 20px auto;
     border:2px solid red;
 }
 .popular-title{
@@ -186,7 +184,7 @@ border:2px solid red;
 /* Destination section style end now */
 
 .destination{
-    margin:100px auto;
+    margin:10px auto;
     max-width:1170px ;
 }
 .destination-first{
@@ -303,7 +301,7 @@ border:2px solid red;
 /* service section style starte now */
 
 .service{
-    margin:100px auto;
+    margin:10px auto;
     max-width:1170px ;
    border: 20px solid red;
 }
@@ -388,22 +386,56 @@ border:2px solid red;
 
 /* Choose section style end now */
 /* discounts section style starte now */
+.container-arif{
+    max-width:1170px ;
+    margin: 20px auto;
+      
+}
+.discount-wow{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.discount-wow h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.discount-wow p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+     font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: 30px auto;
+}
 .discounts,
 .discounts-second{
+    position: relative;
+    background-position: center;
+    display: flex;
+    width: 90%;
+    border-radius: 16px;
     width: 1170px;
     height: 500px;
     background-image:url('../images/Group\ 39.png');
     background-repeat:no-repeat ;
-    margin: 20px 130px;
     border: 2px solid rgb(234, 240, 235);
 }
 .discounts-first{
+    position: relative;
+    background-position: center;
+    display: flex;
+    width: 90%;
     width: 1170px;
     height: 500px;
     background-image:url('../images/Group\ 40.png');
     background-repeat:no-repeat ;
-    margin: 20px 130px;
-   /* border: 2px solid rgb(234, 240, 235);*/
+    border-radius: 16px;
+   
+    border: 2px solid rgb(234, 240, 235);
 }
 .discounts-img-first,
 .discounts-img-third{
@@ -460,12 +492,11 @@ border:2px solid red;
    border: 0;
 }
 .simple-but{
-    width: 210px;
-    height: 52px;
+    padding: 20px 30px;
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
-  margin-left: 500px;
+    margin: 50px auto;
    font-size: 20px;
    font-weight: 800;
    border: 0;

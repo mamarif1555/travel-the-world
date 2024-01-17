@@ -121,6 +121,73 @@
         margin: 0 auto;
         
     }
+    .discounts,
+    .discounts-second,
+    .discounts-first,
+    .discounts-img-first,
+    .discounts-img-third,
+    .discounts-img-second{
+    flex-direction: column;
+   }
+   
+   
+   .discounts-img-second{
+    margin-top: 150px;
+    margin-left:120px ;
+    width: 303px;
+    height: 297px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.726);
+   
+   }
+    .discounts-img-first,
+    .discounts-img-third {
+        width: 303px;
+        height: 297px;
+        margin-top: 150px;
+        margin-left: 120px;
+        position: absolute;
+    }
+
+
+
+   .discounts,
+   .discounts-second,
+   .discounts-first{
+    width: 100%;
+   }
+   .wow-second{
+    width: 254px;
+    text-align: center;
+   }
+   .discount-title-first,
+   .discount-title-third,
+    .discount-title-second{
+    align-items: center;
+    margin: auto 50px;   
+}
+   .discount-wow{
+    text-align: center;
+   }
+   .discount-wow h3{
+    font-size: 1.3rem;
+   }
+   .discount-wow p{
+    width: 309px;
+   }
+   .container-arif{
+    margin-top: 500px;
+   }
+
+
+
+
+
+
+
+
+
+
 
 }
 
