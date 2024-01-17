@@ -37,10 +37,27 @@
     .banner-section-description {
         position: relative;
     }
-
-
-
-
+    .popular{
+        flex-direction: column;
+    }
+    .popular-title{
+        align-items: start;
+    }
+    .popular-title-first,
+    .place-title-first{
+        font-size: 1.3rem;
+    }
+    .popular-title-second,
+    .place-title-second,
+    .popular-title-third{
+        width: 335px;
+        margin: 10px auto;
+        margin: 0;
+    }
+    .mautan-img{
+        width: 335px;
+    height: 342px;
+    }
 
 
 
@@ -88,33 +105,6 @@
 
 
 
-     </nav>
-     
-     
-     </nav>     
-  </div>
-<!-- navebar section end now -->
-</header>
-<main>
-<!-- popular section starts now -->
-<section class="popular">
-    <div class="popular-title">
-      <h3 class="popular-title-first">Our Popular Tours</h3>
-      <p class="popular-title-second">With our self-service platform, booking business trips is just as easy as booking your holiday. Reliable expert service, access to millions of travel options.</p>
-      <li class="popular-title-third">
-          Control costs with travel policy integration and an automated trip approval process via our self-service platform. 
-      </li>
-      <li class="popular-title-third">
-          Successful travel programs make trips simple, productive, and safe for business travelers. Successful HR departments focus on positive employee 
-      </li>
-          <p class="popular-title-second">Book trips with our online platform or through our travel experts, with access to literally millions of travel options. Your business travelers want intuitive, straightforward shopping for flights, hotels, rail and car. We’ll help you identify the right tools and set up the right processes to make it easy for travelers to navigate options and make good choices.</p>
-          <button class="but-primary">Read More</button>
-    </div>
-    <div class="mautan-img">
-      <img src="images/Rectangle 4.png" alt="">
-    </div>
-</section>
-<!-- popular section end now -->
 <!-- Destination section end now -->
 <section class="destination">
      <div class="destination-first">
@@ -348,61 +338,7 @@ background: rgba(255, 255, 255, 0.30);
     border: 0;
     gap: 24px;
 }
-/* popular section style starts now */
 
-.popular{ 
-   
-    margin-left: 130px;
-    /*justify-content: space-between;*/
-}
-.popular-title{
-    width: 525px;
-    align-items: start;
-}
-.popular-title-first,
-.place-title-first{
-    color: #131318;
-    font-size: 40px;
-    font-weight: 800;
-    margin-top: 0px;
-
-}
-.popular-title-second,
-.place-title-second{
-    width: 577px;
-    color: rgba(19, 19, 24, 0.70);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-
-}
-.popular-title-third{
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px; 
-}
-.but-primary{
-    color: #FFF;
-    background: #FF5400;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-     padding: 18px 35px;
-    border-radius: 8px;
-    border: 0;
-
-
-}
-.mautan-img{
-    width: 540px;
-    height: 550px;
-    margin-left: 110px;
-border-radius: 16px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-/* popular section style end now */
 /* Destination section style end now */
 
 .destination{
