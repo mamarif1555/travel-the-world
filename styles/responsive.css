@@ -130,13 +130,11 @@
     flex-direction: column;
    }
    
-   
    .discounts-img-second{
     margin-top: 150px;
-    margin-left:120px ;
+    margin-left:50px ;
     width: 303px;
     height: 297px;
-    border-radius: 16px;
     background: rgba(255, 255, 255, 0.726);
    
    }
@@ -145,7 +143,7 @@
         width: 303px;
         height: 297px;
         margin-top: 150px;
-        margin-left: 120px;
+        margin-left: 50px;
     }
    .discounts,
    .discounts-second,
@@ -164,15 +162,18 @@
 }
    .discount-wow{
     text-align: center;
+    margin: 0 auto;
    }
    .discount-wow h3{
     font-size: 1.3rem;
    }
    .discount-wow p{
     width: 309px;
+    
    }
    .container-arif{
-    margin-top: 500px;
+    margin-top: 50px;
+    border: 4px solid black;
    }
    .place{
     flex-direction: column;
@@ -198,22 +199,52 @@
     width: 100%;
     margin-left: 0px;
    }
+   .news-img-first{
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+
+   }
+   .news-img-second{
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 60px;
+   }
+   .news-img-third{
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-left:25px ;
+   }
    .box-fond{
     
    }
    .footer-title-first{
     width: 287px;
+    text-align: center;
    }
    .footer-container{
     width: 100%;
    }
+   .footer-nave-icon{
+    width: 28.724px;
+    height: 33.516px;
+
+   }
+   .nav-title{
+    text-align: center;
+    
+}
    .footer-title{
-    margin: 10px auto;
+   
+    margin:0 auto;
+    border: 3px solid rgb(0, 255, 191);
    }
    .footer-nave-icon{
     width: 28.724px;
-height: 33.516px;
-
+    height: 33.516px;
+   }
+   .footer-nave-title{
+    font-size: 21.543px;
    }
    .footer-footer{
     text-align: center;
@@ -221,7 +252,12 @@ height: 33.516px;
    hr{
     width: 335px;
     height: 1px;
+    margin: 0 auto;
    }
+   
+
+
+
 
 }
 

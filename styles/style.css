@@ -26,10 +26,9 @@ body{
     border: 0;
 }
 /* navebar section style starts now */
-.header-section{}
 .nav-container{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
 }
 .nav-title{
@@ -72,7 +71,7 @@ body{
     display: flex;
     justify-content: center;
     max-width:1170px ;
-    margin: 20px auto;   
+    margin: 10px auto;   
 }
 .header-title {
     position: relative;
@@ -83,7 +82,7 @@ body{
     background-position: center;
     display: flex;
    margin: 50px auto;
-   width: 90%;
+   width: 100%;
    border-radius: 16px;
 }
  .banner-section-description{
@@ -387,13 +386,18 @@ border-radius: 16px;
 /* discounts section style starte now */
 .container-arif{
     max-width:1170px ;
-    margin: 20px auto;
+    margin: 0 auto;
+   
       
 }
+.final-container{
+    display: flex;
+}
 .discount-wow{
-    width: 1170px;
-    margin: 0 auto;
+    
+    margin: 10px auto;
     text-align: center;
+   
 }
 .discount-wow h3 {
     color: #131318;
@@ -413,29 +417,31 @@ border-radius: 16px;
 .discounts,
 .discounts-second{
     position: relative;
-    background-position: center;
     display: flex;
-    width: 90%;
+    margin: 25px auto;
+    width: 100%;
     border-radius: 16px;
     width: 1170px;
     height: 500px;
     background-image:url('../Images/Group\ 39.png');
     background-repeat:no-repeat ;
-    border: 2px solid rgb(234, 240, 235);
+    background-position: center;
+ 
 }
 .discounts-first{
     position: relative;
     background-position: center;
     display: flex;
-    width: 90%;
+    margin: 0 auto;
+    width: 100%;
     width: 1170px;
     height: 500px;
     background-image:url('../Images/Group\ 40.png');
     background-repeat:no-repeat ;
     border-radius: 16px;
    
-    border: 2px solid rgb(234, 240, 235);
 }
+.discount-title-first{}
 .discounts-img-first,
 .discounts-img-third{
     display: flex;
@@ -456,12 +462,7 @@ border-radius: 16px;
     margin-left: 50px;
      
 }
-.discount-title-first,
-.discount-title-third,
-.discount-title-second{
-    align-items: center;
-    margin: auto 50px;   
-}
+
 .wow-first{
     color: #131318;
     font-size: 24px;
@@ -539,8 +540,9 @@ border-radius: 16px;
     width: 672px;
     height: 422px;
     background-image: url('../Images/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 16px; 
-    
     margin-top: 20px;
     margin-left: 20px;
    
@@ -612,10 +614,12 @@ border-radius: 16px;
     width: 672px;
     height: 422px;
     background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 16px; 
-    
     margin-top: 20px;
     margin-left: 20px;
+    
 }
 .news-img-first{
     /*display: flex;*/
@@ -626,11 +630,12 @@ border-radius: 16px;
     border-radius: 16px;
     background: #FF5400;
     margin-top: 250px;
-    margin-left: 330px;  
+    margin-left: 330px; 
+    
 }
 .news-img-second{
     color: #FFF;
- 
+    
     font-size: 24px;
     font-weight: 400;
     transform: rotate(-1.628deg);
@@ -645,24 +650,24 @@ border-radius: 16px;
     transform: rotate(-1.628deg);
     margin-top: 5px;
     margin-left:25px ;
+    
 }
 /* Newsletter  section style end now */
 /* footer  section style starte now */
 .footer-container{
    width: 1170px;
    margin: 0 auto;
-    background: rgba(19, 19, 24, 0.05);
-    
-}
-.footer-footer{
-    justify-content: center;
-    width: 770px;
+    background: rgba(19, 19, 24, 0.05); 
 }
 .footer-title{
-    margin-top:50px ;
-    margin-left: 230px;
-    margin-bottom: 0;
-   
+   display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    justify-content: center; 
+}
+.nav-title{
+    text-align: center;
+    margin: 0 auto;
 }
 .footer-nave-icon{
     width: 40px;
@@ -673,16 +678,26 @@ border-radius: 16px;
     color:  #131318;
     font-size: 2rem;
     font-weight: 800;
+ 
 }
-
+.footer-nave-title{
+    color:  #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-nave-title-color{
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 800;
+}
 .footer-title-first{
+    text-align: center;
     width: 769px;
+    margin: 20px auto;
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
-    margin-left: 150px;
-    
 }
 .box-fond{
     display: flex;
@@ -693,19 +708,16 @@ border-radius: 16px;
 }
 hr{
     width: 872;
-    color: #FF5400;
+    color: rgb(16, 90, 228);
     border: 1px solid rgb(74, 74, 110);
 }
 .last{
     text-align: center;
-    color: #131318;
+    color: rgb(8, 8, 8);
     font-family: Inter;
     font-size: 16px;
     font-weight: 300;
     margin: 50px auto;
+}
 
-}
-.hide{
-    display: none;
-}
 /* footer  section style end now */
